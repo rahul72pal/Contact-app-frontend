@@ -1,0 +1,132 @@
+.contacts{
+    text-align: center;
+    display: grid;
+    gap: 3rem;
+  width: 85%;
+}
+
+.heading{
+    font-size: 3rem;
+    font-family: math;
+    margin-top: 1rem;
+}
+
+.Addcontact{
+      text-align: left;
+}
+
+.Addcontactbtn{
+    padding: 1rem 2rem;
+    background: orange;
+    border-radius: 1.2rem;
+    font-size: 18px;
+    font-weight: bold;
+  font-family: fangsong;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cards{
+   display: flex;
+  flex-direction: row;
+  padding-bottom: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: start;
+}
+
+
+.empty{
+  font-weight: bold;
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.addcontact{
+  display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.formdiv{
+      display: grid;
+    justify-content: center;
+}
+
+.form{
+  display: flex;
+    flex-direction: column;
+    width: 23rem;
+    gap: 1.5rem;
+      /* border: 4px solid gray; */
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* CSS for the card component */
+.card {
+  width: 350px;
+  /* height: 90%; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.cardimg {
+  width: 100%;
+  max-height: 198px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.cardcontent {
+  text-align: left;
+}
+
+.cardcontent p {
+  margin: 5px 0;
+  margin-top: 1.5rem;
+}
+.fullname{
+  font-size: 25px;
+  font-weight: bold;
+}
+.cardbtn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cardbtn button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background: transparent;
+}
+
+.cardbtn button.delete {
+  background-color: #ff5733;
+  color: #fff;
+}
+
+.cardbtn button.update {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.cardbtn button:hover {
+  opacity: 0.8;
+}
