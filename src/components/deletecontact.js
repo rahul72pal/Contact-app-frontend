@@ -4,7 +4,7 @@ const deleteContact = async (id)=>{
   // console.log("create contact called")
   console.log("delete conatct id = ",id);
   try{
-  await axios.delete(`https://contactappbackend.rahulpal5.repl.co/api/v1/contact/delete/${id}`);
+  await axios.delete(`BACKEN_URL/api/v1/contact/delete/${id}`);
   }catch(er){
     console.log("error in post create");
     console.log(er.response.data);
